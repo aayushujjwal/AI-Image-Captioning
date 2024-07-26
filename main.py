@@ -1,11 +1,11 @@
 # pip install streamlit
 # pip install transformers
 # pip install Pillow
-pip install streamlit
-pip install tensorflow
-pip install pillow
-pip installl transformers
-pip install tf-keras
+!pip install streamlit
+!pip install tensorflow
+!pip install pillow
+!pip installl transformers
+!pip install tf-keras
 
 import streamlit as st
 from transformers import pipeline
