@@ -6,10 +6,11 @@
 # !pip install pillow
 # !pip installl transformers
 # !pip install tf-keras
-
+import transformers
+import PIL
 import streamlit as st
-from transformers import pipeline
-from PIL import Image
+# from transformers import pipeline
+# from PIL import Image
 
 # Create the caption pipeline
 caption = pipeline("image-to-text", model="ydshieh/vit-gpt2-coco-en")
