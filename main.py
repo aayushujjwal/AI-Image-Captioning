@@ -6,6 +6,8 @@
 # !pip install pillow
 # !pip installl transformers
 # !pip install tf-keras
+# !pip install --upgrade transformers
+
 import transformers
 import PIL
 import streamlit as st
